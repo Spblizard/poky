@@ -32,7 +32,7 @@ LICENSE = "GPL-2.0-only"
 #
 # -- RP
 
-LIC_FILES_CHKSUM ?= "file://COPYING;md5=bbea815ee2795b2f4230826c0c6b8814"
+LIC_FILES_CHKSUM ?= "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 
 RECIPE_NO_UPDATE_REASON = "Recipe is updated through a separate process"
 

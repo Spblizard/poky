@@ -89,7 +89,7 @@ DEPENDS:append:class-nativesdk = " python3-native"
 # force to use the mutex+cond implementation (https://bugs.python.org/issue41710)
 CFLAGS += "-DHAVE_BROKEN_POSIX_SEMAPHORES"
 
-EXTRA_OECONF = " --without-ensurepip --enable-shared --with-platlibdir=${baselib}"
+EXTRA_OECONF = " --without-ensurepip --enable-shared --with-platlibdir=${baselib} --disable-ipv6"
 EXTRA_OECONF:append:class-native = " --bindir=${bindir}/${PN}"
 
 export CROSSPYTHONPATH="${STAGING_LIBDIR_NATIVE}/python${PYTHON_MAJMIN}/lib-dynload/"
